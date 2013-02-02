@@ -1,0 +1,223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06F3F83816BD92AC00DDB80B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06F3F83716BD92AC00DDB80B /* main.cpp */; };
+		06F3F84216BD985000DDB80B /* NeuralCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06F3F84016BD985000DDB80B /* NeuralCore.cpp */; };
+		06F3F84516BD98BB00DDB80B /* NeuralNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06F3F84316BD98BB00DDB80B /* NeuralNode.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		06F3F83116BD92AC00DDB80B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06F3F83316BD92AC00DDB80B /* NeuralCore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NeuralCore; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F3F83716BD92AC00DDB80B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		06F3F84016BD985000DDB80B /* NeuralCore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NeuralCore.cpp; sourceTree = "<group>"; };
+		06F3F84116BD985000DDB80B /* NeuralCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeuralCore.h; sourceTree = "<group>"; };
+		06F3F84316BD98BB00DDB80B /* NeuralNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NeuralNode.cpp; sourceTree = "<group>"; };
+		06F3F84416BD98BB00DDB80B /* NeuralNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeuralNode.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06F3F83016BD92AC00DDB80B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06F3F82816BD92AB00DDB80B = {
+			isa = PBXGroup;
+			children = (
+				06F3F83616BD92AC00DDB80B /* NeuralCore */,
+				06F3F83416BD92AC00DDB80B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06F3F83416BD92AC00DDB80B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06F3F83316BD92AC00DDB80B /* NeuralCore */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06F3F83616BD92AC00DDB80B /* NeuralCore */ = {
+			isa = PBXGroup;
+			children = (
+				06F3F83716BD92AC00DDB80B /* main.cpp */,
+				06F3F84116BD985000DDB80B /* NeuralCore.h */,
+				06F3F84016BD985000DDB80B /* NeuralCore.cpp */,
+				06F3F84416BD98BB00DDB80B /* NeuralNode.h */,
+				06F3F84316BD98BB00DDB80B /* NeuralNode.cpp */,
+			);
+			path = NeuralCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06F3F83216BD92AC00DDB80B /* NeuralCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F3F83D16BD92AC00DDB80B /* Build configuration list for PBXNativeTarget "NeuralCore" */;
+			buildPhases = (
+				06F3F82F16BD92AC00DDB80B /* Sources */,
+				06F3F83016BD92AC00DDB80B /* Frameworks */,
+				06F3F83116BD92AC00DDB80B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuralCore;
+			productName = NeuralCore;
+			productReference = 06F3F83316BD92AC00DDB80B /* NeuralCore */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06F3F82A16BD92AB00DDB80B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jeremy Bridon";
+			};
+			buildConfigurationList = 06F3F82D16BD92AC00DDB80B /* Build configuration list for PBXProject "NeuralCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06F3F82816BD92AB00DDB80B;
+			productRefGroup = 06F3F83416BD92AC00DDB80B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06F3F83216BD92AC00DDB80B /* NeuralCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06F3F82F16BD92AC00DDB80B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F3F83816BD92AC00DDB80B /* main.cpp in Sources */,
+				06F3F84216BD985000DDB80B /* NeuralCore.cpp in Sources */,
+				06F3F84516BD98BB00DDB80B /* NeuralNode.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06F3F83B16BD92AC00DDB80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		06F3F83C16BD92AC00DDB80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		06F3F83E16BD92AC00DDB80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06F3F83F16BD92AC00DDB80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06F3F82D16BD92AC00DDB80B /* Build configuration list for PBXProject "NeuralCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F3F83B16BD92AC00DDB80B /* Debug */,
+				06F3F83C16BD92AC00DDB80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06F3F83D16BD92AC00DDB80B /* Build configuration list for PBXNativeTarget "NeuralCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F3F83E16BD92AC00DDB80B /* Debug */,
+				06F3F83F16BD92AC00DDB80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06F3F82A16BD92AB00DDB80B /* Project object */;
+}
